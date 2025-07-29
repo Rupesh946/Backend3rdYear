@@ -67,5 +67,12 @@ console.log(el5.classList);
 
 /*
 Element.addEventListener("event name", function(){
+
 });
 */
+
+let signupButton = document.querySelector(".signup");
+let form = document.querySelector("form");
+signupButton.addEventListener("click", function() {
+    form.classList.toggle("hide");
+});
