@@ -24,7 +24,7 @@ app.get('/', (req, res) => {
 //2.Params
 app.get("/watch/:v/",(req, res) => {
     console.log(req.params.v);
-    res.send("id got it !!!!!!");
+    res.send("id aagyi ji !!!!!!");
 });
 
 app.listen(3000,function(){

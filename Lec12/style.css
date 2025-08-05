@@ -1,0 +1,26 @@
+#colorBox {
+    width: 200px;
+    height: 200px;
+    background-color: lightgray;
+    border: 2px solid black;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 350px;
+}
+ #changeColorBtn {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#changeColorBtn:hover {
+    background-color: #116d16;
+}
